@@ -1,0 +1,27 @@
+{
+  "name": "snake-game",
+  "version": "1.0.0",
+  "description": "This is a snake game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupeshdash/Snake-Game.git"
+  },
+  "keywords": [
+    "game",
+    "snake",
+    "game"
+  ],
+  "author": "Rupesh Kumar Dash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupeshdash/Snake-Game/issues"
+  },
+  "homepage": "https://github.com/rupeshdash/Snake-Game#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
