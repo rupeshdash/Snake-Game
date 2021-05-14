@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+   background-image: url("../../img/bg.jpg");
+   min-height: 100vh;
+   background-size: 100vw 100vh;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   
+}
+#board{
+    background: linear-gradient(rgb(165, 248, 165),rgb(240, 240, 134));
+    width: 90vmin;
+    height: 92vmin;
+    box-shadow: 0 8px 6px -6px black;
+    display: grid;
+
+    /* This is used to divide the board into grid and repeat means row devided into 18 parts per unit 1fr */
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+
+}
+
+.head{
+    background-color: red;
+    border-radius: 50%;
+}
+
+.snake{
+    background-color: purple;
+    border-radius: 25%;
+    margin: 1%;
+}
+.food{
+    background-color: yellow;
+}
